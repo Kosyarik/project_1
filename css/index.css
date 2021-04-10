@@ -76,8 +76,8 @@ h1::after {
     font-size: 15px;
     padding: 10px;
   }
-  .main__menu a:active {
-    color: #e0dd0e;
+  .main__menu a:hover {
+    color: #f9c10c;
   }
   .main__menu li {
     display: inline;
@@ -95,7 +95,29 @@ h1::after {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-top: 50px;
+  position: relative;
+  min-width: 320px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  line-height: 1.5;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.button__section_first {
+  width: auto;
+}
+
+.button__section_first img {
   padding-left: 10px;
-  min-height: 340px;
+  width: 20px;
+}
+
+.button__main {
+  background-color: #f9c10c;
+  color: white;
+}
+
+.button__main:hover {
+  background-color: #225bc1;
 }

@@ -46,8 +46,8 @@
 			color: $color_menu;
 			font-size: 15px;
 			padding: 10px;
-			&:active {
-				color: rgb(224, 221, 14);
+			&:hover {
+				color: $color_point_yellow;
 			}
 		}
 		li {
