@@ -1,0 +1,57 @@
+
+.header__container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-bottom: 40px;
+	padding-top: 30px;
+}
+.logo {
+	img {
+		width: 417px;
+	}
+}
+.social__icon,
+.main__menu {
+	display: none;
+}
+@media (min-width: 992px) {
+	/*тут буде все що більше за 992 px*/
+	.social__icon,
+	.main__menu {
+		display: block;
+	}
+	.logo {
+		img {
+			width: 417px;
+		}
+	}
+	.header__burger {
+		display: none;
+	}
+	header#home .social__icon {
+		img {
+			width: 40px;
+			padding: 5px;
+		}
+	}
+	.main__menu {
+		ul {
+			list-style: none;
+			margin: 0;
+			padding-left: 0;
+		}
+		a {
+			text-decoration: none;
+			color: $color_menu;
+			font-size: 15px;
+			padding: 10px;
+			&:active {
+				color: rgb(224, 221, 14);
+			}
+		}
+		li {
+			display: inline;
+		}
+	}
+}
