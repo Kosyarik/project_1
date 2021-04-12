@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Rubik:wght@500&display=swap");
 h1,
@@ -10,7 +9,10 @@ h2 {
 .sub__title {
   font-family: "Fira Sans", "Rubik", Arial, sans-serif;
 }
-
+body {
+  min-width: 100%;
+  margin: 0;
+}
 .sub__title {
   color: #f9c10c;
   font-size: 12px;
@@ -32,10 +34,10 @@ h1::after {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding-bottom: 40px;
   padding-top: 30px;
 }
@@ -48,6 +50,7 @@ h1::after {
 .main__menu {
   display: none;
 }
+
 
 @media (min-width: 992px) {
   /*тут буде все що більше за 992 px*/
@@ -62,8 +65,14 @@ h1::after {
     display: none;
   }
   header#home .social__icon img {
+   
     width: 40px;
     padding: 5px;
+
+  }
+  .social__icon img:hover {
+    background-color: rgb(223, 238, 10);
+    
   }
   .main__menu ul {
     list-style: none;
@@ -93,8 +102,8 @@ h1::after {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   position: relative;
   min-width: 320px;
   padding-top: 90px;
