@@ -12,15 +12,19 @@
 	font-weight: 400;
 	word-wrap: break-word;
 }
+.section__first_text {
+	margin-left: 249px;
+}
 
 .sub__title {
 }
 
 .button__section_first {
 	width: auto;
+
 	& img {
 		padding-left: 10px;
-		width: 20px;
+		width: 30px;
 	}
 }
 
