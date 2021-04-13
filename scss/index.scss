@@ -15,7 +15,7 @@ h2 {
 	font-weight: bold;
 }
 h1 {
-	color:$blue;
+	color: $blue;
 	font-size: 61px;
 	&::after {
 		content: ".";
@@ -25,3 +25,6 @@ h1 {
 @import "_header";
 @import "_section_one";
 @import "_section__second";
+@import "__about";
+@import "_technical__skills";
+@import "__video";

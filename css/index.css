@@ -94,7 +94,7 @@ h1::after {
 }
 
 .section__first {
-  background-image: url(../img/too_boys_robot.webp);
+  background-image: url(../img/too_boys_robot.jpg);
   background-size: cover;
   background-position: center;
   display: -webkit-box;
@@ -165,42 +165,50 @@ h2::after {
 hr {
   color: #f9c10c;
 }
+
 .about__content {
   padding: 150px;
-  
 }
+
 .about__content img {
-  object-position:50% 50%;
+  -o-object-position: 50% 50%;
+     object-position: 50% 50%;
   width: 448.5px;
   height: 392px;
-  
-}
-.about__content_text {
-
 }
 
 .numbers__one {
   background: url(../img/about/as_4.webp);
-
 }
+
 .numbers__too {
   background: url(../img/about/as_8.png);
 }
+
 .numbers__three {
   background: url(../img/about/as_8.png);
 }
+
 .numbers__four {
   background: url(../img/about/as_12.png);
 }
-.numbers__one, .numbers__too, .numbers__three, .numbers__four {
+
+.numbers__one,
+.numbers__too,
+.numbers__three,
+.numbers__four {
   text-align: center;
-} 
-.numbers__title, .numbers__text  {
-  color: rgb(255, 255, 255);
 }
+
+.numbers__title,
+.numbers__text {
+  color: white;
+}
+
 .numbers__title {
   font-size: 82px;
 }
+
 .technical__skills {
   background-image: url(../img/skills/technical__skills.png);
   background-size: cover;
@@ -209,13 +217,43 @@ hr {
   padding-top: 100px;
   padding-bottom: 100px;
   position: relative;
-
 }
+
 .technical__skills_block {
   text-align: left;
-  background: rgb(255, 255, 255);
+  background: white;
   margin-right: 2%;
   padding: 20px;
-
   max-width: 41.6%;
+}
+
+li {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+.study__header_line img {
+  width: 100%;
+}
+
+.study__header_text {
+  text-align: center;
+  background-color: #225bc1;
+}
+
+.study__header_text img {
+  max-width: 1920px;
+  margin: 0;
+  width: 80%;
+  height: 90%;
+}
+
+.header__title_white,
+.header__title_subtitle {
+  color: aliceblue;
+}
+
+.background_after_study img {
+  width: 100%;
 }

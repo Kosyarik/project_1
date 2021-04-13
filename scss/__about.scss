@@ -1,0 +1,36 @@
+.about__content {
+	padding: 150px;
+}
+.about__content img {
+	object-position: 50% 50%;
+	width: 448.5px;
+	height: 392px;
+}
+.about__content_text {
+}
+
+.numbers__one {
+	background: url(../img/about/as_4.webp);
+}
+.numbers__too {
+	background: url(../img/about/as_8.png);
+}
+.numbers__three {
+	background: url(../img/about/as_8.png);
+}
+.numbers__four {
+	background: url(../img/about/as_12.png);
+}
+.numbers__one,
+.numbers__too,
+.numbers__three,
+.numbers__four {
+	text-align: center;
+}
+.numbers__title,
+.numbers__text {
+	color: rgb(255, 255, 255);
+}
+.numbers__title {
+	font-size: 82px;
+}
