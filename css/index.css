@@ -212,8 +212,10 @@ hr {
 
 }
 .technical__skills_block {
+  text-align: left;
   background: rgb(255, 255, 255);
+  margin-right: 2%;
+  padding: 20px;
+
   max-width: 41.6%;
-
-
 }
