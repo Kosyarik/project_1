@@ -166,13 +166,7 @@ hr {
   color: #f9c10c;
 }
 
-.about__content {
-  padding: 150px;
-}
-
 .about__content img {
-  -o-object-position: 50% 50%;
-     object-position: 50% 50%;
   width: 448.5px;
   height: 392px;
 }
@@ -231,6 +225,31 @@ li {
   display: table-cell;
   vertical-align: middle;
   padding: 10px;
+}
+
+.study__header_line img {
+  width: 100%;
+}
+
+.study__header_text {
+  text-align: center;
+  background-color: #225bc1;
+}
+
+.study__header_text img {
+  max-width: 1920px;
+  margin: 0;
+  width: 80%;
+  height: 90%;
+}
+
+.header__title_white,
+.header__title_subtitle {
+  color: aliceblue;
+}
+
+.background_after_study img {
+  width: 100%;
 }
 
 .study__header_line img {
