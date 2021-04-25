@@ -1,0 +1,38 @@
+.section__first {
+	background-image: url(../img/too_boys_robot.jpg);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	min-width: 320px;
+	padding-top: 90px;
+	padding-bottom: 90px;
+	line-height: 1.5;
+	font-weight: 400px;
+	word-wrap: break-word;
+}
+.section__first_text {
+	margin-left: 249px;
+}
+
+.sub__title {
+}
+
+.button__section_first {
+	width: auto;
+
+	& img {
+		padding-left: 10px;
+		width: 30px;
+	}
+}
+
+.button__main {
+	background-color: $color_point_yellow;
+	color: rgb(255, 255, 255);
+
+	&:hover {
+		background-color: $blue;
+	}
+}

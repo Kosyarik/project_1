@@ -1,0 +1,28 @@
+.section__second {
+	margin-top: 120px;
+	text-align: center;
+}
+.header__title__yellow {
+	color: $color_point_yellow;
+}
+.color_subtitle {
+	color: $color_subtitle;
+}
+h2 {
+	color: $blue;
+	font-size: 40px;
+	&::after {
+		content: ".";
+		color: $red;
+	}
+}
+.skills {
+	text-align: center;
+}
+
+.card-title {
+	text-align: center;
+}
+hr {
+	color: $color_point_yellow;
+}

@@ -1,0 +1,394 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Rubik:wght@500&display=swap");
+h1,
+h2 {
+  font-family: "Rubik", Arial, sans-serif;
+}
+
+.main__menu a,
+.sub__title {
+  font-family: "Fira Sans", "Rubik", Arial, sans-serif;
+}
+
+.sub__title {
+  color: #f9c10c;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+h1 {
+  color: #225bc1;
+  font-size: 61px;
+}
+
+h1::after {
+  content: ".";
+  color: #f9c10c;
+}
+
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 40px;
+  padding-top: 30px;
+}
+
+.logo img {
+  width: 417px;
+}
+
+.social__icon,
+.main__menu {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  /*тут буде все що більше за 992 px*/
+  .social__icon,
+  .main__menu {
+    display: block;
+  }
+  .logo img {
+    width: 417px;
+  }
+  .header__burger {
+    display: none;
+  }
+  header#home .social__icon img {
+    width: 40px;
+    padding: 5px;
+  }
+  #navbarNav > ul > li > a {
+    text-decoration: none;
+    color: #303031;
+    font-size: 15px;
+    padding: 10px;
+  }
+  #navbarNav > ul > li > a:hover {
+    color: #f9c10c;
+  }
+  .main__menu ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+  }
+  .main__menu a {
+    text-decoration: none;
+    color: #303031;
+    font-size: 15px;
+    padding: 10px;
+  }
+  .main__menu a:hover {
+    color: #f9c10c;
+  }
+  .main__menu li {
+    display: inline;
+  }
+}
+
+.section__first {
+  background-image: url(../img/too_boys_robot.jpg);
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  min-width: 320px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  line-height: 1.5;
+  font-weight: 400px;
+  word-wrap: break-word;
+}
+
+.section__first_text {
+  margin-left: 249px;
+}
+
+.button__section_first {
+  width: auto;
+}
+
+.button__section_first img {
+  padding-left: 10px;
+  width: 30px;
+}
+
+.button__main {
+  background-color: #f9c10c;
+  color: white;
+}
+
+.button__main:hover {
+  background-color: #225bc1;
+}
+
+.section__second {
+  margin-top: 120px;
+  text-align: center;
+}
+
+.header__title__yellow {
+  color: #f9c10c;
+}
+
+.color_subtitle {
+  color: #828285;
+}
+
+h2 {
+  color: #225bc1;
+  font-size: 40px;
+}
+
+h2::after {
+  content: ".";
+  color: #f44a6e;
+}
+
+.skills {
+  text-align: center;
+}
+
+.card-title {
+  text-align: center;
+}
+
+hr {
+  color: #f9c10c;
+}
+
+.about__content img {
+  padding-left: 10%;
+  min-width: 120px;
+  max-width: 600px;
+}
+
+.about__content_numbers {
+  position: relative;
+}
+
+.numbers__one {
+  background: url(../img/about/as_4.webp);
+}
+
+.numbers__too {
+  background: url(../img/about/as_8.png);
+}
+
+.numbers__three {
+  background: url(../img/about/as_8.png);
+}
+
+.numbers__four {
+  background: url(../img/about/as_12.png);
+}
+
+.numbers__one,
+.numbers__too,
+.numbers__three,
+.numbers__four {
+  text-align: center;
+  border-radius: 15px;
+}
+
+.numbers__title,
+.numbers__text {
+  color: white;
+}
+
+.numbers__title {
+  font-size: 82px;
+}
+
+.classes__scrol {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.classes__scrol__main img {
+  max-width: 600px;
+}
+
+.technical__skills {
+  background-image: url(../img/skills/technical__skills.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.technical__skills_block {
+  text-align: left;
+  background: white;
+  margin-left: 50%;
+  padding: 20px;
+  max-width: 41.6%;
+}
+
+li {
+  display: table-cell;
+  padding: 10px;
+}
+
+.study__header_line img {
+  width: 100%;
+}
+
+.study__header_text {
+  text-align: center;
+  background-color: #225bc1;
+}
+
+.study__header_text img {
+  max-width: 1920px;
+  margin: 0;
+  width: 80%;
+  height: 90%;
+}
+
+.header__title_white,
+.header__title_subtitle {
+  color: aliceblue;
+}
+
+.background_after_study img {
+  width: 100%;
+}
+
+.card__center {
+  margin-top: -17px;
+}
+
+.faq {
+  text-align: left;
+}
+
+.faq h3 {
+  color: #225bc1;
+  font-size: 40px;
+}
+
+.slider {
+  height: 100%;
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 767px) {
+  .slider {
+    padding: 50px 10px;
+  }
+}
+
+.slick-slider {
+  min-width: 0;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.slider {
+  position: relative;
+  padding: 0px 60px;
+}
+
+@media (max-width: 767px) {
+  .slider {
+    padding: 0px 40px;
+  }
+}
+
+.slider .slick-arrow {
+  position: absolute;
+  top: 50%;
+  margin: -30px 0px 0px 0px;
+  z-index: 10;
+  font-size: 0;
+  width: 30px;
+  height: 60px;
+}
+
+.slider .slick-arrow.slick-prev {
+  left: 0;
+  background: url("../img/sl-arrow_l.svg") 0 0/100% no-repeat;
+}
+
+.slider .slick-arrow.slick-next {
+  right: 0;
+  background: url("../img/sl-arrow_r.svg") 0 0/100% no-repeat;
+}
+
+.slider .slick-arrow.slick-disabled {
+  opacity: 0.2;
+}
+
+.slider .slick-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.slider .slick-dots li {
+  list-style: none;
+  margin: 0px 10px;
+}
+
+.slider .slick-dots button {
+  font-size: 0;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.slider .slick-dots li.slick-active button {
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+.slider__item {
+  padding: 0px 15px;
+}
+
+.slider__item img {
+  max-width: 100%;
+}

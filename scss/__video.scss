@@ -1,0 +1,33 @@
+.study {
+	&__header_line img {
+		width: 100%;
+	}
+	&__header_text {
+		text-align: center;
+		background-color: $blue;
+	}
+	&__header_text img {
+		max-width: 1920px;
+		margin: 0;
+		width: 80%;
+		height: 90%;
+	}
+}
+
+.header__title_white,
+.header__title_subtitle {
+	color: aliceblue;
+}
+.background_after_study img {
+	width: 100%;
+}
+.card__center {
+	margin-top: -17px;
+}
+.faq {
+	text-align: left;
+	& h3 {
+		color: $blue;
+		font-size: 40px;
+	}
+}

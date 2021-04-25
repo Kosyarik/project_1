@@ -1,0 +1,53 @@
+.about__content {
+}
+.about__content img {
+	padding-left: 10%;
+	min-width: 120px;
+	max-width: 600px;
+}
+.about__content_text {
+}
+
+.about__content_numbers {
+	position: relative;
+}
+.numbers__one {
+	background: url(../img/about/as_4.webp);
+}
+.numbers__too {
+	background: url(../img/about/as_8.png);
+
+}
+.numbers__three {
+	background: url(../img/about/as_8.png);
+
+}
+.numbers__four {
+	background: url(../img/about/as_12.png);
+}
+.numbers__one,
+.numbers__too,
+.numbers__three,
+.numbers__four {
+	text-align: center;
+	border-radius: 15px;
+	
+}
+.numbers__title,
+.numbers__text {
+	color: rgb(255, 255, 255);
+}
+.numbers__title {
+	font-size: 82px;
+}
+
+.classes__scrol {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.classes__scrol__main {
+	& img {
+		max-width: 600px;
+	}
+}
