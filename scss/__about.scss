@@ -8,11 +8,10 @@
 .about__content_text {
 }
 
-.about__content_numbers {
-	position: relative;
-}
+
 .numbers__one {
 	background: url(../img/about/as_4.webp);
+
 }
 .numbers__too {
 	background: url(../img/about/as_8.png);
@@ -31,6 +30,8 @@
 .numbers__four {
 	text-align: center;
 	border-radius: 15px;
+	margin: 1px;
+
 	
 }
 .numbers__title,

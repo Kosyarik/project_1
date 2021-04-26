@@ -10,10 +10,13 @@
 		width: 417px;
 	}
 }
-.social__icon,
-.main__menu {
+.social__icon {
 	display: none;
 }
+.main_menu {
+	position: relative;
+}
+
 @media (min-width: 992px) {
 	/*тут буде все що більше за 992 px*/
 	.social__icon,
@@ -64,4 +67,3 @@
 		}
 	}
 }
-

@@ -6,7 +6,7 @@ h2 {
   font-family: "Rubik", Arial, sans-serif;
 }
 
-.main__menu a,
+.main__menu,
 .sub__title {
   font-family: "Fira Sans", "Rubik", Arial, sans-serif;
 }
@@ -27,6 +27,40 @@ h1::after {
   color: #f9c10c;
 }
 
+:root {
+  scroll-behavior: smooth;
+}
+
+#carouselOffers {
+  min-height: 500px;
+}
+
+#carouselOffers img {
+  max-height: 450px;
+}
+
+.intro {
+  max-width: 400px;
+  margin-top: 150px;
+  text-align: center;
+}
+
+.card {
+  height: 100%;
+}
+
+.alert {
+  position: fixed;
+  top: 50px;
+  width: 50%;
+  left: 25%;
+  z-index: 1051;
+}
+
+.btn {
+  padding: 0.75rem 0.7rem;
+}
+
 .header__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -44,9 +78,12 @@ h1::after {
   width: 417px;
 }
 
-.social__icon,
-.main__menu {
+.social__icon {
   display: none;
+}
+
+.main_menu {
+  position: relative;
 }
 
 @media (min-width: 992px) {
@@ -176,10 +213,6 @@ hr {
   max-width: 600px;
 }
 
-.about__content_numbers {
-  position: relative;
-}
-
 .numbers__one {
   background: url(../img/about/as_4.webp);
 }
@@ -202,6 +235,7 @@ hr {
 .numbers__four {
   text-align: center;
   border-radius: 15px;
+  margin: 1px;
 }
 
 .numbers__title,
@@ -343,12 +377,12 @@ li {
 
 .slider .slick-arrow.slick-prev {
   left: 0;
-  background: url("../img/sl-arrow_l.svg") 0 0/100% no-repeat;
+  background: url("../img/sl-arrow_l.svg") 0/100% no-repeat;
 }
 
 .slider .slick-arrow.slick-next {
   right: 0;
-  background: url("../img/sl-arrow_r.svg") 0 0/100% no-repeat;
+  background: url("../img/sl-arrow_r.svg") 0/100% no-repeat;
 }
 
 .slider .slick-arrow.slick-disabled {
