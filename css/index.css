@@ -209,8 +209,7 @@ hr {
 
 .about__content img {
   padding-left: 10%;
-  min-width: 120px;
-  max-width: 600px;
+  max-width: 280px;
 }
 
 .numbers__one {
