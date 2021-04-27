@@ -22,11 +22,11 @@ class ProductList {
 						<div class="card-body">
 							<h5 class="card-title">${product.title}</h5>
 							<p>${product.description}</p>
-							<div class="d-flex justify-content-around">
-                        <button class="btn btn-info" data-bs-toggle="modal"
+							<div class="d-flex justify-content-around product">
+                        <button class="btn btn-info js-button-info" data-bs-toggle="modal"
                           data-bs-target="#productInfoModal" data-id="${product.id}">Info
                         </button>
-                        <button class="btn btn-primary buy" data-id="${product.id}">
+                        <button class="btn btn-primary js-button-buy" data-id="${product.id}">
                           $${product.price} - Buy
                         </button>
                       </div>
@@ -37,7 +37,7 @@ class ProductList {
 	}
 	async addEventListeners() {
 		document
-			.querySelectorAll('.product .btn-info')
+			.querySelectorAll('.js-button-info')
 			.forEach(button =>
 				button.addEventListener('click', event =>
 					this.handleProductInfoClick(event)
@@ -45,7 +45,7 @@ class ProductList {
 			);
 		document
 			.querySelectorAll(
-				'.card.product button.buy, #productInfoModal button.buy'
+				'.js-button-buy'
 			)
 			.forEach(button =>
 				button.addEventListener('click', event =>
@@ -74,7 +74,7 @@ class ProductList {
 		modal.querySelector('.modal-body .card-title').innerText = product.title;
 		modal.querySelector('.modal-body .card-text').innerText =
 			product.description;
-		const btnBuy = modal.querySelector('button.buy');
+		const btnBuy = modal.querySelector('.js-button-buy');
 		btnBuy.innerText = `${product.price} - Buy`;
 		btnBuy.dataset.id = id;
 	}
