@@ -1,30 +1,30 @@
 [
     {
         "id": "1",
-        "title": "Baby Yoda",
-        "image": "baby-yoda.svg",
-        "description": "Baby Yoda sticker",
-        "price": 49.99
+		"title": "Kitty",
+		"image": "480.jpg",
+		"description": "",
+		"price": 33.00 
     },
     {
-        "id": "2",
-        "title": "Banana",
-        "image": "banana.svg",
-        "description": "Banana sticker",
-        "price": 19.99
+		"id": "2",
+		"title": "Zuzyk",
+		"image": "480_(1).jpg",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+		"price": 100.50
     },
     {
-        "id": "3",
-        "title": "Girl",
-        "image": "girl.svg",
-        "description": "Girl sticker",
-        "price": 24.99
+		"id": "3",
+		"title": "Tuddy",
+		"image": "480_(2).jpg",
+		"description": "",
+		"price": 22.50
     },
     {
-        "id": "4",
-        "title": "Viking",
-        "image": "viking.svg",
-        "description": "Viking sticker",
-        "price": 34.99
+		"id": "4",
+		"title": "Robby",
+		"image": "480.png",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+		"price": 10.00
     }
 ]
