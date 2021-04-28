@@ -84,6 +84,10 @@ class Cart {
 	async updateBadge() {
 		const { count, cost } = await this.cartLengthAndCost();
 		document.querySelector('#cart-badge').innerText = `${count} $${cost.toFixed(2)}`;
+		const $cart = document.querySelector('.shop__button');
+		count > 0
+			? $cart.style.display = 'block'
+			: $cart.style.display = 'none'
 	}
 	async cartLengthAndCost() {
 		// return Object.keys(this.cart).length;

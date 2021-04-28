@@ -1,0 +1,21 @@
+.shop__button {
+	display: none;
+	max-width: 10px;
+	position: fixed;
+	z-index: 2;
+	right: 10%;
+	& img {
+		position: fixed;
+		z-index: 2;
+		right: 10%;
+		max-width: 3%;
+	}
+}
+.nav-link {
+}
+.openCartLink {
+}
+.badge {
+}
+.bg-dark {
+}

@@ -1,495 +1,536 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/index.css">
-        <title>Robo</title>
-    </head>
-    <body>
-        <header class="container p-3 mb-2 bg-white text-dark" id="home">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light main_menu p-3 mb-2 bg-white text-dark">
-                <div>
-                    <a class="nav-link openCartLink" href="#modal-cart" data-bs-toggle="modal">
-                        <i class="fas fa-shopping-cart"></i>
-                        Cart<span id="cart-badge" class="badge bg-dark"></span>
-                    </a>
-                </div>
-                <div class="logo">
-                    <img src="img/logo.svg" alt="logo">
-                </div>
-                <div class="social__icon">
-                    <img src="img/social/facebook.png" alt="facebook" id="hover_social">
-                    <img src="img/social/instagram.png" alt="instagram" id="hover_social">
-                    <img src="img/social/youtube.png" alt="youtube" id="hover_social">
-                </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link active" aria-current="page" href="#about">About us.</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#classes">Services.</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#pricing">Pricing.</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact Us.</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#products">Products.</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-        <main>
-            <div class="section__first">
-                <div class="section__first_text">
-                    <p class="sub__title">join us </p>
-                    <h1>
-                        Robotics for<br>You Kids
-                    </h1>
-                    <br>
-                    <p>Get your children ready for the future.</p>
-                    <div class="button__section_first">
-                        <a href="#classes" class="btn btn-warning button__main">Our Classes</a>
-                        <span>
-                            <img src="img/play_icon.svg" alt="Play Watch video">
-                        </span>
-                        <a href="#" class="button__video">Watch Video</a>
-                    </div>
-                </div>
-            </div>
-            <section class="section__second">
-                <p class="header__title__yellow">FEATURES</p>
-                <h2>RoboTech Classes at a Glance</h2>
-                <p class="color_subtitle">We offer classes that are really interesting for your children.</p>
-            </section>
-            <div class="skills row justify-content-md-evenly">
-                <div class="card col-12 col-sm-6 col-md-4 col-lg-3 shadow-lg p-3 mb-5 bg-body rounded">
-                    <img src="img/skills/bionic-arm.svg" class="card-img-top" alt="Experience">
-                    <div class="card-body">
-                        <h5 class="card-title">Experience.</h5>
-                        <p class="card-text">Children get real robotics experience and create their own high-tech projects.</p>
-                    </div>
-                </div>
-                <div class="card col-12 col-sm-6 col-md-4 col-lg-3 shadow-lg p-3 mb-5 bg-body rounded">
-                    <img src="img/skills/robot.svg" class="card-img-top" alt="Practice">
-                    <div class="card-body">
-                        <h5 class="card-title">Practice.</h5>
-                        <p class="card-text">We've kept boring theory to a minimum. During each lesson, kids perform practical
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/index.css">
+	<title>Robo</title>
+</head>
+
+<body>
+	<header class="container p-3 mb-2 bg-white text-dark" id="home">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light main_menu p-3 mb-2 bg-white text-dark">
+			<div class="shop__button">
+				<a class="nav-link openCartLink" href="#modal-cart" data-bs-toggle="modal">
+					<img src="img/shop.svg" alt="Button schop">
+					<span id="cart-badge" class="badge bg-dark"></span>
+				</a>
+			</div>
+			<div class="logo">
+				<img src="img/logo.svg" alt="logo">
+			</div>
+			<div class="social__icon">
+				<img src="img/social/facebook.png" alt="facebook" id="hover_social">
+				<img src="img/social/instagram.png" alt="instagram" id="hover_social">
+				<img src="img/social/youtube.png" alt="youtube" id="hover_social">
+			</div>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link active" aria-current="page" href="#about">About us.</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#classes">Services.</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#pricing">Pricing.</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact Us.</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#products">Products.</a>
+					</li>
+				</ul>
+			</div>
+
+		</nav>
+	</header>
+	<main>
+		<div class="section__first">
+
+			<div class="section__first_text">
+				<p class="sub__title">join us </p>
+				<h1>
+					Robotics for<br>You Kids
+				</h1>
+				<br>
+				<p>Get your children ready for the future.</p>
+				<div class="button__section_first">
+					<a href="#classes" class="btn btn-warning button__main">Our Classes</a>
+					<span>
+						<img src="img/play_icon.svg" alt="Play Watch video">
+					</span>
+					<a href="#" class="button__video">Watch Video</a>
+				</div>
+			</div>
+		</div>
+		<section class="section__second">
+			<p class="header__title__yellow">FEATURES</p>
+			<h2>RoboTech Classes at a Glance</h2>
+			<p class="color_subtitle">We offer classes that are really interesting for your children.</p>
+		</section>
+		<div class="skills row justify-content-md-evenly">
+			<div class="card col-12 col-sm-6 col-md-4 col-lg-3 shadow-lg p-3 mb-5 bg-body rounded">
+				<img src="img/skills/bionic-arm.svg" class="card-img-top" alt="Experience">
+				<div class="card-body">
+					<h5 class="card-title">Experience.</h5>
+					<p class="card-text">Children get real robotics experience and create their own high-tech projects.</p>
+				</div>
+			</div>
+			<div class="card col-12 col-sm-6 col-md-4 col-lg-3 shadow-lg p-3 mb-5 bg-body rounded">
+				<img src="img/skills/robot.svg" class="card-img-top" alt="Practice">
+				<div class="card-body">
+					<h5 class="card-title">Practice.</h5>
+					<p class="card-text">We've kept boring theory to a minimum. During each lesson, kids perform practical
 						tasks.</p>
-                    </div>
-                </div>
-                <div class="card col-12 col-sm-6 col-md-4 col-lg-3 shadow-lg p-3 mb-5 bg-body rounded">
-                    <img src="img/skills/robotic-arm.svg" class="card-img-top" alt="Skills">
-                    <div class="card-body">
-                        <h5 class="card-title">Skills.</h5>
-                        <p class="card-text">Real skills can determine your kid's future profession or become a trendy hobby.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="img__silver">
-                <img src="img/about/flop-silver.png" alt="line" class="w-100 mx-0">
-            </div>
-            <div class="about__container">
-                <div class="about container " id="about">
-                    <div class="about__content row">
-                        <div class="media col">
-                            <img src="img/about/girl_robot.png" class="align-self-center mr-2" alt="about">
-                        </div>
-                        <div class="about__content_text col ">
-                            <p class="header__title mt-0">WHAT WE DO</p>
-                            <h2 class="mt-0">About RoboTech</h2>
-                            <p class="subtitle">We offer structured and interesting courses designed by IIT-IIM and PhD professors.
+				</div>
+			</div>
+			<div class="card col-12 col-sm-6 col-md-4 col-lg-3 shadow-lg p-3 mb-5 bg-body rounded">
+				<img src="img/skills/robotic-arm.svg" class="card-img-top" alt="Skills">
+				<div class="card-body">
+					<h5 class="card-title">Skills.</h5>
+					<p class="card-text">Real skills can determine your kid's future profession or become a trendy hobby.</p>
+				</div>
+			</div>
+		</div>
+		<div class="img__silver">
+			<img src="img/about/flop-silver.png" alt="line" class="w-100 mx-0">
+		</div>
+		<div class="about__container">
+			<div class="about container " id="about">
+				<div class="about__content row">
+					<div class="media col">
+						<img src="img/about/girl_robot.png" class="align-self-center mr-2" alt="about">
+					</div>
+					<div class="about__content_text col ">
+						<p class="header__title mt-0">WHAT WE DO</p>
+						<h2 class="mt-0">About RoboTech</h2>
+						<p class="subtitle">We offer structured and interesting courses designed by IIT-IIM and PhD
+							professors.
+						</p>
+						<p class="simple__text">
+							If you are looking for some activities to engage your child from 6 years old, we
+							have a
+							solution. Robotics
+							is an exciting hobby that can influence your child's future career choices. Robotics develops
+							thinking,
+							fine
+							motor skills and logic, teaches children to understand the technology, and generally increases
+							their
+							creativity.
+							<br>We've designed fun, practice-filled activities for your kids aged 6 to 16. Sign up for a free
+							trial
+							lesson,
+							and your kid will love robotics!
+
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row ">
+					<div class="numbers__one  text-center col">
+						<p class="numbers__title">4</p>
+						<p class="numbers__text">Different courses.</p>
+					</div>
+					<div class="numbers__too text-center col">
+						<p class="numbers__title">6</p>
+						<p class="numbers__text">Years of work.</p>
+					</div>
+					<div class="numbers__three text-center col">
+						<p class="numbers__title">8</p>
+						<p class="numbers__text">Skilled teachers.</p>
+					</div>
+					<div class="numbers__four text-center col">
+						<p class="numbers__title">12</p>
+						<p class="numbers__text">Kids in each group.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="img__silver">
+			<img src="img/about/flop-silver-footer.png" alt="line" class="w-100 mx-0">
+		</div>
+		<div class="classes__scrol" id="classes">
+			<p class="header__title">CLASSES</p>
+			<h2>What Your Children Do at RoboTech</h2>
+			<p class="subtitle">We have created a place to study, learn new things, and have fun with other kids.</p>
+		</div>
+		<div class="slider">
+			<div class="slider__item filter">
+				<img src="img/scrol/first.png" alt="Robotics LEGO Storms® EV3">
+				<h3>Robotics LEGO Storms® EV3</h3>
+				<p class="about__classes">This course is designed to teach children how to construct, code, and control
+					robots.</p>
+			</div>
+			<div class="slider__item ">
+				<img src="img/scrol/juniors.png" alt="Robotics LEGO Storms® EV3">
+				<h3>Robotics LEGO Storms® EV3</h3>
+				<p class="about__classes">This course is designed to teach children how to construct, code, and control
+					robots.</p>
+			</div>
+			<div class="slider__item filter">
+				<img src="img/scrol/legoWedo.png" alt="Robotics LEGO Storms® EV3">
+				<h3>Robotics LEGO Storms® EV3</h3>
+				<p class="about__classes">This course is designed to teach children how to construct, code, and control
+					robots.</p>
+			</div>
+			<div class="slider__item ">
+				<img src="img/scrol/RobotEngineering.png" alt="Robotics LEGO Storms® EV3">
+				<h3>Robotics LEGO Storms® EV3</h3>
+				<p class="about__classes">This course is designed to teach children how to construct, code, and control
+					robots.</p>
+			</div>
+		</div>
+		<div class="study">
+			<div class="study__header_line">
+				<img src="img/blue_line_up.png" alt="line">
+			</div>
+			<div class="study__header_text">
+				<p class="header__title__yellow">VIDEO</p>
+				<h2 class="header__title_white">Watch How We Study</h2>
+				<p class="header__title_subtitle">Each class at RoboTech is intersting to your children.</p>
+				<img src="img/video_img.png" alt="">
+			</div>
+			<div class="background_after_study">
+				<img src="img/blue_line_footer.png" alt="line footer">
+			</div>
+		</div>
+		<div class="price text-center" id="pricing">
+			<p class="header__title">PRICE</p>
+			<h2>Our Pricing</h2>
+			<p class="subtitle">We have different pricing plans based on the age of our students.</p>
+			<div class="row justify-content-md-center price__content ">
+				<div class="card text-center col-12 col-sm-6 col-md-4 col-lg-3 shadow-lg p-3 mb-5 bg-body rounded"
+					style="width: 18rem;">
+					<img src="img/price/robot_(3).svg" class="card-img-top" alt="for 1st and 2nd graders">
+					<div class="card-body">
+						<h5 class="card-title">$120</h5>
+						<span>— per month—</span>
+						<p class="card-text">for 1st and 2nd graders 1 class per week a lot of practice</p>
+						<a href="#" class="btn btn-primary">Select Plan</a>
+					</div>
+				</div>
+				<div
+					class="card card__center text-center col-12 col-sm-6 col-md-4 col-lg-3 p-3 mb-2 bg-warning text-dark rounded-bottom "
+					style="width: 18rem; height: 32rem; ">
+					<img src="img/price/robot_(2).svg" class="card-img-top "
+						alt="for 6th to 8th graders 2 classes per week theory and practice">
+					<div class="card-body">
+						<h5 class="card-title">$150</h5>
+						<span>— per month—</span>
+						<p class="card-text">for 6th to 8th graders 2 classes per week theory and practice</p>
+						<a href="#" class="btn btn-primary">Select Plan</a>
+					</div>
+				</div>
+				<div class="card text-center col-12 col-sm-6 col-md-4 col-lg-3 shadow-lg p-3 mb-5 bg-body rounded"
+					style="width: 18rem;">
+					<img src="img/price/robot_(1).svg" class="card-img-top"
+						alt="for teenagers 2 classes per week own graduation project">
+					<div class="card-body">
+						<h5 class="card-title">$150</h5>
+						<span>— per month—</span>
+						<p class="card-text">for teenagers 2 classes per week own graduation project</p>
+						<a href="#" class="btn btn-primary">Select Plan</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="img__silver">
+			<img src="img/about/flop-silver.png" alt="line" class="w-100 mx-0">
+		</div>
+		<div class="about__container">
+			<div class="products text-center" id="products">
+				<h2>Products</h2>
+				<p class="subtitle">Shop our new arrivals and best sellers. Click on the image to see product details and
+					click
+					Buy to add a product to cart. We are committed to give you the best buying experience!</p>
+			</div>
+			<button class="sort-asc btn">Sort Ascending</button>
+			<button class="sort-desc btn">Button Descending</button>
+			<br>
+			<div class="shop__products d-flex justify-content-evenly"></div>
+		</div>
+		<div class="img__silver">
+			<img src="img/about/flop-silver-footer.png" alt="line" class="w-100 mx-0">
+		</div>
+		<br>
+		<br>
+		<div class="admission container text-center" id="schedule">
+			<p class="header__title">SCHEDULE</p>
+			<h2>Admission</h2>
+			<p class="subtitle">We are announcing the new groups you can join very soon!</p>
+		</div>
+		<div class="container">
+			<div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 align-items-center">
+				<div class="col">
+					<img src="img/adminssion/robot.svg" class="card-img-top" alt="Robot">
+				</div>
+				<div class="col">
+					<p class="fs-1 fw-bold">01</p>
+				</div>
+				<div class="col">
+					<h5 class="card-title">APRIL</h5>
+					<p class="card-text">Kidbots for Juniors</p>
+					<p class="card-text">
+						<small class="text-muted">10:30 - 14:00</small>
 					</p>
-                            <p class="simple__text">
-                                If you are looking for some activities to engage your child from 6 years old, we
-						have a
-						solution. Robotics
-						is an exciting hobby that can influence your child's future career choices. Robotics develops
-						thinking,
-						fine
-						motor skills and logic, teaches children to understand the technology, and generally increases their
-						creativity.
-						<br>We've designed fun, practice-filled activities for your kids aged 6 to 16. Sign up for a free trial
-						lesson,
-						and your kid will love robotics!
-					
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row ">
-                        <div class="numbers__one  text-center col">
-                            <p class="numbers__title">4</p>
-                            <p class="numbers__text">Different courses.</p>
-                        </div>
-                        <div class="numbers__too text-center col">
-                            <p class="numbers__title">6</p>
-                            <p class="numbers__text">Years of work.</p>
-                        </div>
-                        <div class="numbers__three text-center col">
-                            <p class="numbers__title">8</p>
-                            <p class="numbers__text">Skilled teachers.</p>
-                        </div>
-                        <div class="numbers__four text-center col">
-                            <p class="numbers__title">12</p>
-                            <p class="numbers__text">Kids in each group.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="img__silver">
-                <img src="img/about/flop-silver-footer.png" alt="line" class="w-100 mx-0">
-            </div>
-            <div class="classes__scrol" id="classes">
-                <p class="header__title">CLASSES</p>
-                <h2>What Your Children Do at RoboTech</h2>
-                <p class="subtitle">We have created a place to study, learn new things, and have fun with other kids.</p>
-            </div>
-            <div class="slider">
-                <div class="slider__item filter">
-                    <img src="img/scrol/first.png" alt="Robotics LEGO Storms® EV3">
-                    <h3>Robotics LEGO Storms® EV3</h3>
-                    <p class="about__classes">This course is designed to teach children how to construct, code, and control
-					robots.</p>
-                </div>
-                <div class="slider__item ">
-                    <img src="img/scrol/juniors.png" alt="Robotics LEGO Storms® EV3">
-                    <h3>Robotics LEGO Storms® EV3</h3>
-                    <p class="about__classes">This course is designed to teach children how to construct, code, and control
-					robots.</p>
-                </div>
-                <div class="slider__item filter">
-                    <img src="img/scrol/legoWedo.png" alt="Robotics LEGO Storms® EV3">
-                    <h3>Robotics LEGO Storms® EV3</h3>
-                    <p class="about__classes">This course is designed to teach children how to construct, code, and control
-					robots.</p>
-                </div>
-                <div class="slider__item ">
-                    <img src="img/scrol/RobotEngineering.png" alt="Robotics LEGO Storms® EV3">
-                    <h3>Robotics LEGO Storms® EV3</h3>
-                    <p class="about__classes">This course is designed to teach children how to construct, code, and control
-					robots.</p>
-                </div>
-            </div>
-            <div class="study">
-                <div class="study__header_line">
-                    <img src="img/blue_line_up.png" alt="line">
-                </div>
-                <div class="study__header_text">
-                    <p class="header__title__yellow">VIDEO</p>
-                    <h2 class="header__title_white">Watch How We Study</h2>
-                    <p class="header__title_subtitle">Each class at RoboTech is intersting to your children.</p>
-                    <img src="img/video_img.png" alt="">
-                </div>
-                <div class="background_after_study">
-                    <img src="img/blue_line_footer.png" alt="line footer">
-                </div>
-            </div>
-            <div class="price text-center" id="pricing">
-                <p class="header__title">PRICE</p>
-                <h2>Our Pricing</h2>
-                <p class="subtitle">We have different pricing plans based on the age of our students.</p>
-                <div class="row justify-content-md-center price__content ">
-                    <div class="card text-center col-12 col-sm-6 col-md-4 col-lg-3 shadow-lg p-3 mb-5 bg-body rounded" style="width: 18rem;">
-                        <img src="img/price/robot_(3).svg" class="card-img-top" alt="for 1st and 2nd graders">
-                        <div class="card-body">
-                            <h5 class="card-title">$120</h5>
-                            <span>— per month—</span>
-                            <p class="card-text">for 1st and 2nd graders 1 class per week a lot of practice</p>
-                            <a href="#" class="btn btn-primary">Select Plan</a>
-                        </div>
-                    </div>
-                    <div class="card card__center text-center col-12 col-sm-6 col-md-4 col-lg-3 p-3 mb-2 bg-warning text-dark rounded-bottom " style="width: 18rem; height: 32rem; ">
-                        <img src="img/price/robot_(2).svg" class="card-img-top " alt="for 6th to 8th graders 2 classes per week theory and practice">
-                        <div class="card-body">
-                            <h5 class="card-title">$150</h5>
-                            <span>— per month—</span>
-                            <p class="card-text">for 6th to 8th graders 2 classes per week theory and practice</p>
-                            <a href="#" class="btn btn-primary">Select Plan</a>
-                        </div>
-                    </div>
-                    <div class="card text-center col-12 col-sm-6 col-md-4 col-lg-3 shadow-lg p-3 mb-5 bg-body rounded" style="width: 18rem;">
-                        <img src="img/price/robot_(1).svg" class="card-img-top" alt="for teenagers 2 classes per week own graduation project">
-                        <div class="card-body">
-                            <h5 class="card-title">$150</h5>
-                            <span>— per month—</span>
-                            <p class="card-text">for teenagers 2 classes per week own graduation project</p>
-                            <a href="#" class="btn btn-primary">Select Plan</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="img__silver">
-                <img src="img/about/flop-silver.png" alt="line" class="w-100 mx-0">
-            </div>
-            <div class="about__container">
-                <div class="products text-center" id="products">
-                    <h2>Products</h2>
-                    <p class="subtitle">Shop our new arrivals and best sellers. Click on the image to see product details and
-				click
-				Buy to add a product to cart. We are committed to give you the best buying experience!</p>
-                </div>
-                <button class="sort-asc btn">Sort Ascending</button>
-                <button class="sort-desc btn">Button Descending</button>
-                <br>
-                <div class="shop__products d-flex justify-content-evenly"></div>
-            </div>
-            <div class="img__silver">
-                <img src="img/about/flop-silver-footer.png" alt="line" class="w-100 mx-0">
-            </div>
-            <br>
-            <br>
-            <div class="admission container text-center" id="schedule">
-                <p class="header__title">SCHEDULE</p>
-                <h2>Admission</h2>
-                <p class="subtitle">We are announcing the new groups you can join very soon!</p>
-            </div>
-            <div class="container">
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 align-items-center">
-                    <div class="col">
-                        <img src="img/adminssion/robot.svg" class="card-img-top" alt="Robot">
-                    </div>
-                    <div class="col">
-                        <p class="fs-1 fw-bold">01</p>
-                    </div>
-                    <div class="col">
-                        <h5 class="card-title">APRIL</h5>
-                        <p class="card-text">Kidbots for Juniors</p>
-                        <p class="card-text">
-                            <small class="text-muted">10:30 - 14:00</small>
-                        </p>
-                    </div>
-                    <div class="col">
-                        <button type="button" class="btn btn-warning">Join Group</button>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 align-items-center">
-                    <div class="col">
-                        <img src="img/adminssion/robot_(2)_(1).svg" class="card-img-top" alt="Robot">
-                    </div>
-                    <div class="col">
-                        <p class="fs-1 fw-bold">22</p>
-                    </div>
-                    <div class="col">
-                        <h5 class="card-title">APRIL</h5>
-                        <p class="card-text">Robotics LEGO Mindstorms® EV3</p>
-                        <p class="card-text">
-                            <small class="text-muted">10:30 - 14:00</small>
-                        </p>
-                    </div>
-                    <div class="col">
-                        <button type="button" class="btn btn-warning">Join Group</button>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 align-items-center">
-                    <div class="col">
-                        <img src="img/adminssion/robot_(1)_(1).svg" class="card-img-top" alt="Robot">
-                    </div>
-                    <div class="col">
-                        <p class="fs-1 fw-bold">29</p>
-                    </div>
-                    <div class="col">
-                        <h5 class="card-title">APRIL</h5>
-                        <p class="card-text">Robotics LEGO WEDO® 2.0</p>
-                        <p class="card-text">
-                            <small class="text-muted">10:30 - 14:00</small>
-                        </p>
-                    </div>
-                    <div class="col">
-                        <button type="button" class="btn btn-warning">Join Group</button>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <br>
-            <br>
-            <div class="technical__skills">
-                <div class="technical__skills_block shadow-lg p-3 mb-5 bg-body rounded">
-                    <p class="header__title">FUTURE IS HERE</p>
-                    <h2>Give Your Kids Technical Skills</h2>
-                    <p class="subtitle">
-                        Robotics is a promising direction. Robots are already being used in many fields
+				</div>
+				<div class="col">
+					<button type="button" class="btn btn-warning">Join Group</button>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 align-items-center">
+				<div class="col">
+					<img src="img/adminssion/robot_(2)_(1).svg" class="card-img-top" alt="Robot">
+				</div>
+				<div class="col">
+					<p class="fs-1 fw-bold">22</p>
+				</div>
+				<div class="col">
+					<h5 class="card-title">APRIL</h5>
+					<p class="card-text">Robotics LEGO Mindstorms® EV3</p>
+					<p class="card-text">
+						<small class="text-muted">10:30 - 14:00</small>
+					</p>
+				</div>
+				<div class="col">
+					<button type="button" class="btn btn-warning">Join Group</button>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 align-items-center">
+				<div class="col">
+					<img src="img/adminssion/robot_(1)_(1).svg" class="card-img-top" alt="Robot">
+				</div>
+				<div class="col">
+					<p class="fs-1 fw-bold">29</p>
+				</div>
+				<div class="col">
+					<h5 class="card-title">APRIL</h5>
+					<p class="card-text">Robotics LEGO WEDO® 2.0</p>
+					<p class="card-text">
+						<small class="text-muted">10:30 - 14:00</small>
+					</p>
+				</div>
+				<div class="col">
+					<button type="button" class="btn btn-warning">Join Group</button>
+				</div>
+			</div>
+		</div>
+		<br>
+		<br>
+		<br>
+		<div class="technical__skills">
+			<div class="technical__skills_block shadow-lg p-3 mb-5 bg-body rounded">
+				<p class="header__title">FUTURE IS HERE</p>
+				<h2>Give Your Kids Technical Skills</h2>
+				<p class="subtitle">
+					Robotics is a promising direction. Robots are already being used in many fields
 					of
 					activity, and their importance is increasing day by day. If your child enjoys technology,
 					coding, and
 					science, don't miss the chance to further develop this interest into a hobby or even a
 					profession.
 					<br>Robotics develops the following skills that your child will need in adult life:
-				
-                    </p>
-                    &#10004;Logics
+
+				</p>
+				&#10004;Logics
 				&#10004;Creativity
 				&#10004;Agile mind
 
 
-			
-                </div>
-            </div>
-            <br>
-            <br>
-            <div class="container">
-                <div class="row justify-content-md-center">
-                    <div class="col ">
-                        <div class="faq" id="faq">
-                            <p class="header__title__yellow">FAQ</p>
-                            <h3>Want to Know More?</h3>
-                            <p class="subtitle">Feel free to contact us to get any details or book a free lesson for your
+
+			</div>
+		</div>
+		<br>
+		<br>
+		<div class="container">
+			<div class="row justify-content-md-center">
+				<div class="col ">
+					<div class="faq" id="faq">
+						<p class="header__title__yellow">FAQ</p>
+						<h3>Want to Know More?</h3>
+						<p class="subtitle">Feel free to contact us to get any details or book a free lesson for your
 							child!</p>
-                        </div>
-                        <div class="accordion accordion-flush" id="accordionFlushExample">
-                            <div class="accordion-item">
-                                <h3 class="accordion-header" id="flush-headingOne">
-                                    <button class="accordion-button collapsed text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">What is the right age to join the courses?
+					</div>
+					<div class="accordion accordion-flush" id="accordionFlushExample">
+						<div class="accordion-item">
+							<h3 class="accordion-header" id="flush-headingOne">
+								<button class="accordion-button collapsed text-primary" type="button" data-bs-toggle="collapse"
+									data-bs-target="#flush-collapseOne" aria-expanded="false"
+									aria-controls="flush-collapseOne">What is the right age to join the courses?
 								</button>
-                                </h3>
-                                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Children as young as 6 years old can start learning how to build
+							</h3>
+							<div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+								data-bs-parent="#accordionFlushExample">
+								<div class="accordion-body">Children as young as 6 years old can start learning how to build
 									robots and program them.</div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h3 class="accordion-header" id="flush-headingTwo">
-                                    <button class="accordion-button collapsed text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">What do parents need to bring for the class ?
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h3 class="accordion-header" id="flush-headingTwo">
+								<button class="accordion-button collapsed text-primary" type="button" data-bs-toggle="collapse"
+									data-bs-target="#flush-collapseTwo" aria-expanded="false"
+									aria-controls="flush-collapseTwo">What do parents need to bring for the class ?
 								</button>
-                                </h3>
-                                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Actually, nothing. All equipment is provided by our school
+							</h3>
+							<div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+								data-bs-parent="#accordionFlushExample">
+								<div class="accordion-body">Actually, nothing. All equipment is provided by our school
 									(including tablets/laptops). </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h3 class="accordion-header" id="flush-headingThree">
-                                    <button class="accordion-button collapsed text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">What is the class size and configuration ?
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h3 class="accordion-header" id="flush-headingThree">
+								<button class="accordion-button collapsed text-primary" type="button" data-bs-toggle="collapse"
+									data-bs-target="#flush-collapseThree" aria-expanded="false"
+									aria-controls="flush-collapseThree">What is the class size and configuration ?
 								</button>
-                                </h3>
-                                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">The class will have maximum of 12 kids. Children work in small
+							</h3>
+							<div id="flush-collapseThree" class="accordion-collapse collapse"
+								aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+								<div class="accordion-body">The class will have maximum of 12 kids. Children work in small
 									teams to build and code robots.</div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h3 class="accordion-header" id="flush-headingFour">
-                                    <button class="accordion-button collapsed text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour " aria-expanded="false" aria-controls="flush-collapseFour ">Can the kids keep the robots they've made?
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h3 class="accordion-header" id="flush-headingFour">
+								<button class="accordion-button collapsed text-primary" type="button" data-bs-toggle="collapse"
+									data-bs-target="#flush-collapseFour " aria-expanded="false"
+									aria-controls="flush-collapseFour ">Can the kids keep the robots they've made?
 								</button>
-                                </h3>
-                                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">No, because we create a new robot each lesson. Every class, kids
+							</h3>
+							<div id="flush-collapseFour" class="accordion-collapse collapse"
+								aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+								<div class="accordion-body">No, because we create a new robot each lesson. Every class, kids
 									will learn to build new robots with additional features.</div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h3 class="accordion-header" id="flush-headingFive">
-                                    <button class="accordion-button collapsed text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">Do kids need experience with robotics?
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h3 class="accordion-header" id="flush-headingFive">
+								<button class="accordion-button collapsed text-primary" type="button" data-bs-toggle="collapse"
+									data-bs-target="#flush-collapseFive" aria-expanded="false"
+									aria-controls="flush-collapseFive">Do kids need experience with robotics?
 								</button>
-                                </h3>
-                                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">No prior experience or knowledge of robotics/programming is
+							</h3>
+							<div id="flush-collapseFive" class="accordion-collapse collapse"
+								aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+								<div class="accordion-body">No prior experience or knowledge of robotics/programming is
 									required.</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col ">
-                        <div class="shadow-lg p-3 mb-5 bg-body rounded" id="contact">
-                            <form name="inputMesagge" onsubmit="return validateForm()" method="post">
-                                <div class="mb-3">
-                                    <input type="text" class="form-control form-check-name" id="formGroupExamplInput" placeholder="Enter you ful name*">
-                                </div>
-                                <div class="mb-3">
-                                    <input type="tel" class="form-control form-check-num" id="formGroupExampleInput" placeholder="Enter you phone number*">
-                                </div>
-                                <div class="mb-3">
-                                    <input type="email" class="form-control form-check-mail" id="exampleFormControlInput1" placeholder="Enter your e-mail*">
-                                </div>
-                                <div class="mb-3">
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Type your message"></textarea>
-                                </div>
-                                <button type="submit" class="btn btn-warning button__main">Submit</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </main>
-        <div class="modal fade" id="productInfoModal" tabindex="-1" role="dialog" aria-labelledby="productInfoLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="productInfoLabel">Product Info</h5>
-                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <img class="card-img-top" src="" alt="">
-                        <h4 class="card-title"></h4>
-                        <p class="card-text"></p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button class="btn btn-primary js-button-buy" data-id="id">Buy</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="modal fade" id="modal-cart" tabindex="-1" role="dialog" aria-labelledby="cartLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="cartLabel">Cart</h5>
-                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="cart-product-list-container"></div>
-                        <hr>
-                        <div class="container">
-                            <form class="form-contacts">
-                                <div class="form-group row">
-                                    <label for="client-name" class="col-4 col-form-label">Your name:</label>
-                                    <input class="form-control col-8" type="text" id="client-name" required>
-                                </div>
-                                <div class="form-group row">
-                                    <label for="client-email" class="col-4 col-form-label">Your email:</label>
-                                    <input class="form-control col-8" type="email" id="client-email" required>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary close-btn" data-bs-dismiss="modal">Close</button>
-                        <button class="btn btn-primary order">Order</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="alert-container"></div>
-        <script src="js/products-list.js"></script>
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="js/slick.min.js"></script>
-        <script src="js/carusel.js"></script>
-        <script async src="js/alert-window.js"></script>
-        <script defer src="js/products-service.js"></script>
-        <script defer src="js/cart.js"></script>
-        <script src="js/validateForm.js"></script>
-        <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
-        <script defer src="js/index.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-    </body>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col ">
+					<div class="shadow-lg p-3 mb-5 bg-body rounded" id="contact">
+						<form name="inputMesagge" onsubmit="return validateForm()" method="post">
+							<div class="mb-3">
+								<input type="text" class="form-control form-check-name" id="formGroupExamplInput"
+									placeholder="Enter you ful name*">
+							</div>
+							<div class="mb-3">
+								<input type="tel" class="form-control form-check-num" id="formGroupExampleInput"
+									placeholder="Enter you phone number*">
+							</div>
+							<div class="mb-3">
+								<input type="email" class="form-control form-check-mail" id="exampleFormControlInput1"
+									placeholder="Enter your e-mail*">
+							</div>
+							<div class="mb-3">
+								<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+									placeholder="Type your message"></textarea>
+							</div>
+							<button type="submit" class="btn btn-warning button__main">Submit</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<div class="modal fade" id="productInfoModal" tabindex="-1" role="dialog" aria-labelledby="productInfoLabel"
+		aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="productInfoLabel">Product Info</h5>
+					<button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<img class="card-img-top" src="" alt="">
+					<h4 class="card-title"></h4>
+					<p class="card-text"></p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+					<button class="btn btn-primary js-button-buy" data-id="id">Buy</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="modal-cart" tabindex="-1" role="dialog" aria-labelledby="cartLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="cartLabel">Cart</h5>
+					<button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="cart-product-list-container"></div>
+					<hr>
+					<div class="container">
+						<form class="form-contacts">
+							<div class="form-group row">
+								<label for="client-name" class="col-4 col-form-label">Your name:</label>
+								<input class="form-control col-8" type="text" id="client-name" required>
+							</div>
+							<div class="form-group row">
+								<label for="client-email" class="col-4 col-form-label">Your email:</label>
+								<input class="form-control col-8" type="email" id="client-email" required>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary close-btn" data-bs-dismiss="modal">Close</button>
+					<button class="btn btn-primary order">Order</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="alert-container"></div>
+	<script src="js/products-list.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/carusel.js"></script>
+	<script async src="js/alert-window.js"></script>
+	<script defer src="js/products-service.js"></script>
+	<script defer src="js/cart.js"></script>
+	<script src="js/validateForm.js"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"
+		integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0"
+		crossorigin="anonymous"></script>
+	<script defer src="js/index.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+		crossorigin="anonymous"></script>
+</body>
+
 </html>

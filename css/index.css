@@ -66,16 +66,16 @@ h1::after {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-bottom: 40px;
   padding-top: 30px;
 }
 
 .logo img {
-  width: 280px;
+  width: 417px;
 }
 
 .social__icon {
@@ -101,9 +101,6 @@ h1::after {
   header#home .social__icon img {
     width: 40px;
     padding: 5px;
-  }
-  #hover_social:hover{
-    filter: invert(65%) sepia(87%) saturate(486%) hue-rotate(357deg) brightness(107%) contrast(95%);
   }
   #navbarNav > ul > li > a {
     text-decoration: none;
@@ -142,14 +139,14 @@ h1::after {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: relative;
   min-width: 320px;
   padding-top: 90px;
   padding-bottom: 90px;
   line-height: 1.5;
-
+  font-weight: 400px;
   word-wrap: break-word;
 }
 
@@ -190,7 +187,7 @@ h1::after {
 
 h2 {
   color: #225bc1;
-  font-size: 4vw;
+  font-size: 40px;
 }
 
 h2::after {
@@ -209,15 +206,10 @@ h2::after {
 hr {
   color: #f9c10c;
 }
-.about__container {
-  margin: auto;
-  background-color: #f8f8f8;
-  background-size: 100%;
-}
 
 .about__content img {
   padding-left: 10%;
-  max-width: 100%;
+  max-width: 280px;
 }
 
 .numbers__one {
@@ -331,11 +323,11 @@ li {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 @media (max-width: 767px) {
@@ -357,8 +349,8 @@ li {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .slider {
@@ -401,11 +393,11 @@ li {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-   align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-   justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .slider .slick-dots li {
@@ -432,4 +424,19 @@ li {
 
 .slider__item img {
   max-width: 100%;
+}
+
+.shop__button {
+  display: none;
+  max-width: 10px;
+  position: fixed;
+  z-index: 2;
+  right: 10%;
+}
+
+.shop__button img {
+  position: fixed;
+  z-index: 2;
+  right: 10%;
+  max-width: 3%;
 }
