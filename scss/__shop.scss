@@ -9,6 +9,7 @@
 		z-index: 2;
 		right: 10%;
 		max-width: 3%;
+		filter: invert(16%) sepia(89%) saturate(6352%) hue-rotate(358deg) brightness(106%) contrast(96%);
 	}
 }
 .nav-link {
@@ -18,4 +19,7 @@
 .badge {
 }
 .bg-dark {
+}
+#hover_social:hover {
+	filter: invert(65%) sepia(87%) saturate(486%) hue-rotate(357deg) brightness(107%) contrast(95%);
 }

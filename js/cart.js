@@ -83,7 +83,8 @@ class Cart {
 	}
 	async updateBadge() {
 		const { count, cost } = await this.cartLengthAndCost();
-		document.querySelector('#cart-badge').innerText = `${count} $${cost.toFixed(2)}`;
+		document.querySelector('#cart-badge').innerText = `${count} - pсs
+			Price: $${cost.toFixed(2)}`;
 		const $cart = document.querySelector('.shop__button');
 		count > 0
 			? $cart.style.display = 'block'

@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Rubik:wght@500&display=swap");
 h1,
@@ -87,7 +86,6 @@ h1::after {
 }
 
 @media (min-width: 992px) {
-  /*тут буде все що більше за 992 px*/
   .social__icon,
   .main__menu {
     display: block;
@@ -187,7 +185,7 @@ h1::after {
 
 h2 {
   color: #225bc1;
-  font-size: 40px;
+  font-size: 4vw;
 }
 
 h2::after {
@@ -207,9 +205,15 @@ hr {
   color: #f9c10c;
 }
 
+.about__container {
+  margin: auto;
+  background-color: #f8f8f8;
+  background-size: 100%;
+}
+
 .about__content img {
   padding-left: 10%;
-  max-width: 280px;
+  max-width: 100%;
 }
 
 .numbers__one {
@@ -439,4 +443,11 @@ li {
   z-index: 2;
   right: 10%;
   max-width: 3%;
+  -webkit-filter: invert(16%) sepia(89%) saturate(6352%) hue-rotate(358deg) brightness(106%) contrast(96%);
+          filter: invert(16%) sepia(89%) saturate(6352%) hue-rotate(358deg) brightness(106%) contrast(96%);
+}
+
+#hover_social:hover {
+  -webkit-filter: invert(65%) sepia(87%) saturate(486%) hue-rotate(357deg) brightness(107%) contrast(95%);
+          filter: invert(65%) sepia(87%) saturate(486%) hue-rotate(357deg) brightness(107%) contrast(95%);
 }
