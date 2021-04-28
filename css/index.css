@@ -102,6 +102,9 @@ h1::after {
     width: 40px;
     padding: 5px;
   }
+  #hover_social:hover{
+    filter: invert(65%) sepia(87%) saturate(486%) hue-rotate(357deg) brightness(107%) contrast(95%);
+  }
   #navbarNav > ul > li > a {
     text-decoration: none;
     color: #303031;
