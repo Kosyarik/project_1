@@ -22,11 +22,11 @@ class ProductList {
 						<div class="card-body">
 							<h5 class="card-title">${product.title}</h5>
 							<p>${product.description}</p>
-							<div class="d-flex justify-content-around product">
-                        <button class="btn btn-info js-button-info" data-bs-toggle="modal"
+							<div class="row product">
+                        <button type="button" class="btn btn-outline-primary js-button-info" data-bs-toggle="modal"
                           data-bs-target="#productInfoModal" data-id="${product.id}">Info
                         </button>
-                        <button class="btn btn-primary js-button-buy" data-id="${product.id}">
+                        <button type="button" class="btn btn-warning button__main js-button-buy" data-id="${product.id}">
                           $${product.price} - Buy
                         </button>
                       </div>

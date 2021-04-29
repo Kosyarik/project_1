@@ -168,10 +168,12 @@ h1::after {
 .button__main {
   background-color: #f9c10c;
   color: white;
+
 }
 
 .button__main:hover {
   background-color: #225bc1;
+  border-color: #225bc1;
 }
 
 .section__second {
@@ -284,7 +286,7 @@ li {
 
 .study__header_line img {
   width: 100%;
-  margin-bottom: -2px;
+  margin-bottom: -5px;
 }
 
 .study__header_text {
@@ -302,10 +304,13 @@ li {
 .header__title_white, .header__title_subtitle {
   color: aliceblue;
 }
-
+.background_after_study {
+  margin-top: -10px;
+}
 .background_after_study img {
   width: 100%;
 }
+
 
 .card__center {
   margin-top: -17px;
