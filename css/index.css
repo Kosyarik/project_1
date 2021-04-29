@@ -462,9 +462,7 @@ li {
   background-color: #225bc1;
   color: #f8f8f8;
 }
-.main__footer_top {
 
-}
 .social__icon_footer img {
   filter: invert(99%) sepia(49%) saturate(67%) hue-rotate(235deg) brightness(114%) contrast(95%);
   width: 20%;
@@ -497,7 +495,7 @@ li {
   font-size: 1vw;
   text-decoration: none;
 }
-.
+
 .footer__navigator_buttom:hover {
   color: #f9c10c;
 }
